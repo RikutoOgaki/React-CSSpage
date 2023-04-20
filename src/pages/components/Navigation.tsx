@@ -1,5 +1,6 @@
-import { Box, Flex, Text, List, OrderedList, ListItem } from '@chakra-ui/react'
+import { Box, Flex, Text, List, OrderedList, ListItem, Button } from '@chakra-ui/react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navigation() {
     return (
@@ -7,18 +8,25 @@ export default function Navigation() {
             <Box>
                 <Flex
                     as='aside'
+                    flexDir={'column'}
                 >
                     <Link href={'/'}>
-
+                        {/* <Image src={''} alt='' /> */}
+                        <Text as={'h1'} fontSize={'4xl'} padding={'2rem 0 0 2rem'}>ReactCSS</Text>
                     </Link>
-                    <nav>
+                    <Flex as='nav' marginTop={'1rem'} padding={'2rem'}>
                         <OrderedList>
-                            <ListItem></ListItem>
-                            <ListItem></ListItem>
-                            <ListItem></ListItem>
-                            <ListItem></ListItem>
+                            <ListItem>
+                                <Box>CSS</Box>
+                            </ListItem>
+                            <ListItem>
+                                <Box>Sass/Scss</Box>
+                            </ListItem>
+                            <ListItem>
+                                <Box>Chakra-UI</Box>
+                            </ListItem>
                         </OrderedList>
-                    </nav>
+                    </Flex>
                 </Flex>
             </Box>
         </>
