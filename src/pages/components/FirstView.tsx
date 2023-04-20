@@ -58,13 +58,16 @@ export default function FirstView() {
                             </Text>
                         </Box>
                         <Box
-                            w={'15rem'}
+                            w={'20rem'}
                             h={'4rem'}
-                            border={'1px solid tomato'}
+                            // border={'1px solid tomato'}
                             borderRadius={'10px'}
+                            bgGradient={'linear(purple.200,blue.200)'}
+                            color={'#fff'}
+                            marginTop={'1rem'}
                             textAlign={'center'}>
                             <Link href={'/'}>
-                                <Text fontWeight={'bold'} fontSize={'2xs'} padding={'1.2rem'}>
+                                <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
                                     詳しくはこちらから
                                 </Text>
                             </Link>
@@ -77,22 +80,50 @@ export default function FirstView() {
                         <Box>
                             <Text fontSize={'3xl'}>
                                 まず、ReactにSass/Scssの環境を導入する必要があるので、<br />
-                                <Box as='code'>
-                                    npm i --save-dev sass or
-                                    yarn i --save-dev sass
+                                <Box
+                                    width={'100%'}
+                                    h={'4rem'}
+                                    borderRadius={'10px'}
+                                    paddingTop={'.5rem'}
+                                    marginTop={'2rem'}
+                                    paddingLeft={'1rem'}
+                                    bg={'blackAlpha.300'}
+                                >
+                                    <Text as={'code'}>
+                                        npm i --save-dev sass or
+                                        yarn i --save-dev sass
+                                    </Text>
                                 </Box><br />
                                 を書く必要がある。<br />
                                 HTMLにスタイルを当てるように書くことが可能。<br />
                                 ReactもHTMLと同様Scssファイルを読み込ませる必要があるので、<br />
-                                <Box as='code'>
-                                    import style from 'ファイルがある場所'
+                                <Box
+                                    width={'100%'}
+                                    h={'4rem'}
+                                    borderRadius={'10px'}
+                                    paddingTop={'.5rem'}
+                                    paddingLeft={'1rem'}
+                                    marginTop={'2rem'}
+                                    bg={'blackAlpha.300'}
+                                >
+                                    <Text as={'code'}>
+                                        import style from 'ファイルがある場所'
+                                    </Text>
                                 </Box><br />
                                 を書くことで読み込みが完了する。
                             </Text>
                         </Box>
-                        <Box w={'15rem'} h={'4rem'} border={'1px solid tomato'} borderRadius={'10px'} textAlign={'center'}>
+                        <Box
+                            w={'20rem'}
+                            h={'4rem'}
+                            // border={'1px solid tomato'}
+                            borderRadius={'10px'}
+                            bgGradient={'linear(purple.200,blue.200)'}
+                            color={'#fff'}
+                            marginTop={'1rem'}
+                            textAlign={'center'}>
                             <Link href={'/'}>
-                                <Text fontWeight={'bold'} fontSize={'2xs'} padding={'1.2rem'}>
+                                <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
                                     詳しくはこちらから
                                 </Text>
                             </Link>
@@ -102,28 +133,50 @@ export default function FirstView() {
                         <Box>
                             <Text as={'h2'} fontSize={'6xl'}>ReactでのChakra-UI</Text>
                         </Box>
-                        <Box>
+                        <Box lineHeight={'10'}>
                             <Text fontSize={'3xl'}>
                                 HTMLのタグの中に直接CSSのプロパティを書くことが可能。<br />
                                 Chakra-UI用の専用のタグが存在します。<br />
-                                <Box as='code'>
-                                    npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+                                <Box width={'100%'}
+                                    h={'4rem'}
+                                    borderRadius={'10px'}
+                                    paddingTop={'.5rem'}
+                                    marginTop={'2rem'}
+                                    paddingLeft={'1rem'}
+                                    bg={'blackAlpha.300'}>
+                                    <Text as={'code'}>
+                                        npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+                                    </Text>
                                 </Box><br />
                                 を書く必要がある。<br />
-                                <Box as='code'>
-                                    import ｛専用タグ｝from '@chakra-ui/react'
+                                <Box
+                                    // as='code'
+                                    width={'100%'}
+                                    h={'4rem'}
+                                    borderRadius={'10px'}
+                                    paddingTop={'.5rem'}
+                                    paddingLeft={'1rem'}
+                                    marginTop={'2rem'}
+                                    bg={'blackAlpha.300'}
+                                >
+                                    <Text as={'code'}>
+                                        import ｛専用タグ｝from '@chakra-ui/react'
+                                    </Text>
                                 </Box><br />
                                 を書くことで読み込みが完了する。
                             </Text>
                         </Box>
                         <Box
-                            w={'15rem'}
+                            w={'20rem'}
                             h={'4rem'}
-                            border={'1px solid tomato'}
+                            // border={'1px solid tomato'}
                             borderRadius={'10px'}
+                            bgGradient={'linear(purple.200,blue.200)'}
+                            color={'#fff'}
+                            marginTop={'1rem'}
                             textAlign={'center'}>
                             <Link href={'/'}>
-                                <Text fontWeight={'bold'} fontSize={'2xs'} padding={'1.2rem'}>
+                                <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
                                     詳しくはこちらから
                                 </Text>
                             </Link>
