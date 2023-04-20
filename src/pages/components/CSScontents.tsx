@@ -10,7 +10,6 @@ export default function CSS() {
                 alignItems={'center'}
                 marginLeft={'25rem'}
                 paddingTop={'8vh'}
-            // bg={'tomato'}
             >
                 <Flex
                     flexDir={'column'}
