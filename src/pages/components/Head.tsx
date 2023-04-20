@@ -8,13 +8,17 @@ export default function Head() {
             <Flex
                 w={'100%'}
                 h={'8vh'}
+                bg={'#fff'}
                 marginLeft={'25rem'}
                 justifyContent={'space-between'}
                 alignItems={'center'}
                 position={'fixed'}
                 top={0}>
                 <Box paddingLeft={{ base: '20rem', lg: '40rem' }}>
-                    <Text as={'h2'} fontSize={'7xl'} fontWeight={'bold'}>Styles in React</Text>
+                    <Text
+                        as={'h2'}
+                        fontSize={'7xl'}
+                        fontWeight={'bold'}>Styles in React</Text>
                 </Box>
                 <Flex paddingRight={'50rem'} gap={'4rem'}>
                     <Link href={'/'}>
