@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Navigation from './components/Navigation'
 import FirstView from './components/FirstView'
+import Header from './components/Head'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <title>React CSS design</title>
       </Head>
       <Box position={'relative'} overflow={'hidden'}>
+        <Header />
         <Navigation />
         <FirstView />
       </Box>
