@@ -12,6 +12,7 @@ export default function Navigation() {
                     position={'fixed'} top={0} left={0}
                     flexDir={'column'}
                     h={'200rem'}
+                    w={'25rem'}
                     bg={'#999'}
                 >
                     <Link href={'/'}>

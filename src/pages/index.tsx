@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>React CSS design</title>
       </Head>
-      <Box position={'relative'}>
+      <Box position={'relative'} overflow={'hidden'}>
         <Navigation />
         <FirstView />
       </Box>
