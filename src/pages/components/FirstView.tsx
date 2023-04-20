@@ -173,7 +173,7 @@ export default function FirstView() {
                             borderRadius={'10px'}
                             bgGradient={'linear(purple.200,blue.200)'}
                             color={'#fff'}
-                            marginTop={'1rem'}
+                            marginTop={'3rem'}
                             textAlign={'center'}>
                             <Link href={'/'}>
                                 <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>

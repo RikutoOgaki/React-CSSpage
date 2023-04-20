@@ -21,12 +21,12 @@ export default function Head() {
                         fontWeight={'bold'}>Styles in React</Text>
                 </Box>
                 <Flex paddingRight={'50rem'} gap={'4rem'}>
-                    <Link href={'/'}>
+                    <Link href={'https://github.com/RikutoOgaki/React-CSSpage'}>
                         <Text fontSize={'5xl'}>
                             <SiGithub />
                         </Text>
                     </Link>
-                    <Link href={'/'}>
+                    <Link href={'https://twitter.com/Rikuto_Ogaki'}>
                         <Text fontSize={'5xl'}>
                             <SiTwitter />
                         </Text>
