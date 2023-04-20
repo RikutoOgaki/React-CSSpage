@@ -1,7 +1,7 @@
 import { Box, Flex, Text, List, OrderedList, ListItem, Button } from '@chakra-ui/react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { SiCss3, SiSass, SiChakraui } from 'react-icons/si'
+import { SiCss3, SiSass, SiChakraui, SiReact } from 'react-icons/si'
 
 export default function Navigation() {
     return (
@@ -13,11 +13,20 @@ export default function Navigation() {
                     flexDir={'column'}
                     h={'200rem'}
                     w={'25rem'}
-                    bg={'blue.100'}
+                    bg={'blue'}
                 >
                     <Link href={'/'}>
                         {/* <Image src={''} alt='' /> */}
-                        <Text as={'h1'} fontSize={'4xl'} padding={'2rem 0 0 2rem'} color={'#fff'} fontWeight={'extrabold'}>ReactCSS</Text>
+                        <Flex
+                            as={'h1'}
+                            fontSize={'4xl'}
+                            padding={'2rem 0 0 2rem'}
+                            color={'#fff'}
+                            lineHeight={1}
+                            fontWeight={'extrabold'}>
+                            <SiReact color='skyblue' />
+                            ReactCSS
+                        </Flex>
                     </Link>
                     <Box as='nav' marginTop={'1rem'} padding={'2rem'} >
                         <OrderedList display={'flex'} flexDir={'column'} gap={'2rem'}>
