@@ -14,6 +14,7 @@ export default function Chakrapage() {
             <Box position={'relative'} overflow={'hidden'}>
                 <Header />
                 <Navigation />
+                <Chakra />
             </Box>
         </>
     )

@@ -15,7 +15,7 @@ export default function CSSpage() {
             <Box position={'relative'} overflow={'hidden'}>
                 <Header />
                 <Navigation />
-
+                <CSS />
             </Box>
         </>
     )

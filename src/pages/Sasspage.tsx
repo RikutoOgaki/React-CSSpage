@@ -13,6 +13,7 @@ export default function Sasspage() {
             <Box position={'relative'} overflow={'hidden'}>
                 <Header />
                 <Navigation />
+                <Sass />
             </Box>
         </>
     )
