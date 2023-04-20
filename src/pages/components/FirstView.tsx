@@ -27,7 +27,7 @@ export default function FirstView() {
                                 Reactを使い始める人やReactを使っている人がページを作る中でどのようにしてスタイルを当てて行くかを教え、<br />
                                 完成に向けて補助していきます。<br />
                                 一つのテーマに沿ってCSS,Sass/Scss,Chakra-UIそれぞれでの書き方で書いています。<br />
-                                作品としてはものは同じです、。
+                                作品としてはものは同じです。
                             </Text>
                         </Box>
                     </Box>
@@ -99,7 +99,8 @@ export default function FirstView() {
                                 を書く必要がある。<br />
                                 HTMLにスタイルを当てるように書くことが可能。<br />
                                 ReactもHTMLと同様Scssファイルを読み込ませる必要があるので、<br />
-                                <Text
+                                <Box
+                                    as={'span'}
                                     width={'100%'}
                                     h={'4rem'}
                                     borderRadius={'10px'}
@@ -111,7 +112,7 @@ export default function FirstView() {
                                     <Text as={'code'}>
                                         import style from 'ファイルがある場所'
                                     </Text>
-                                </Text><br />
+                                </Box><br />
                                 を書くことで読み込みが完了する。
                             </Text>
                         </Box>
@@ -139,7 +140,9 @@ export default function FirstView() {
                             <Text fontSize={'3xl'}>
                                 HTMLのタグの中に直接CSSのプロパティを書くことが可能。<br />
                                 Chakra-UI用の専用のタグが存在します。<br />
-                                <Box width={'100%'}
+                                <Box
+                                    as='span'
+                                    width={'100%'}
                                     h={'4rem'}
                                     borderRadius={'10px'}
                                     paddingTop={'.5rem'}
@@ -152,7 +155,7 @@ export default function FirstView() {
                                 </Box><br />
                                 を書く必要がある。<br />
                                 <Box
-                                    // as='code'
+                                    as='span'
                                     width={'100%'}
                                     h={'4rem'}
                                     borderRadius={'10px'}
