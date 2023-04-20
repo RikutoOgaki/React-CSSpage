@@ -6,16 +6,17 @@ import { SiCss3, SiSass, SiChakraui } from 'react-icons/si'
 export default function Navigation() {
     return (
         <>
-            <Box position={'fixed'} top={0} left={0} >
+            <Box>
                 <Flex
                     as='aside'
+                    position={'fixed'} top={0} left={0}
                     flexDir={'column'}
                     h={'200rem'}
                     bg={'#999'}
                 >
                     <Link href={'/'}>
                         {/* <Image src={''} alt='' /> */}
-                        <Text as={'h1'} fontSize={'4xl'} padding={'2rem 0 0 2rem'}>ReactCSS</Text>
+                        <Text as={'h1'} fontSize={'4xl'} padding={'2rem 0 0 2rem'} color={'#fff'} fontWeight={'extrabold'}>ReactCSS</Text>
                     </Link>
                     <Box as='nav' marginTop={'1rem'} padding={'2rem'} >
                         <OrderedList display={'flex'} flexDir={'column'} gap={'2rem'}>
