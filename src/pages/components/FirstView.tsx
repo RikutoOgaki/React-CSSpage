@@ -82,7 +82,7 @@ export default function FirstView() {
                         <Box>
                             <Text fontSize={'3xl'}>
                                 まず、ReactにSass/Scssの環境を導入する必要があるので、<br />
-                                <Box
+                                <Text
                                     width={'100%'}
                                     h={'4rem'}
                                     borderRadius={'10px'}
@@ -95,11 +95,11 @@ export default function FirstView() {
                                         npm i --save-dev sass or
                                         yarn i --save-dev sass
                                     </Text>
-                                </Box><br />
+                                </Text><br />
                                 を書く必要がある。<br />
                                 HTMLにスタイルを当てるように書くことが可能。<br />
                                 ReactもHTMLと同様Scssファイルを読み込ませる必要があるので、<br />
-                                <Box
+                                <Text
                                     width={'100%'}
                                     h={'4rem'}
                                     borderRadius={'10px'}
@@ -111,7 +111,7 @@ export default function FirstView() {
                                     <Text as={'code'}>
                                         import style from 'ファイルがある場所'
                                     </Text>
-                                </Box><br />
+                                </Text><br />
                                 を書くことで読み込みが完了する。
                             </Text>
                         </Box>
