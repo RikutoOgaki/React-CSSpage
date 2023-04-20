@@ -4,21 +4,23 @@ import Link from 'next/link'
 export default function FirstView() {
     return (
         <>
-            <Box
-                // bg={'skyblue'} 
+            <Flex
+                // bg={'blue.100'}
+                justifyContent={'center'}
+                alignItems={'center'}
                 marginLeft={'25rem'}
                 paddingTop={'8vh'}>
                 <Flex
                     flexDir={'column'}
                     justifyContent={'center'}
-                    alignItems={'center'}
-                    gap={'5rem'}
+                    alignItems={'flex-start'}
+                    gap={'10rem'}
                     margin={'0 3rem'}
                     padding={'2rem'}>
-                    <Box>
-                        <Text as={'h2'} fontSize={'6xl'}>Reactでのスタイル</Text>
-                    </Box>
                     <Box as='section'>
+                        <Box>
+                            <Text as={'h2'} fontSize={'6xl'}>Reactでのスタイル</Text>
+                        </Box>
                         <Box>
                             <Text fontSize={'3xl'}>
                                 このサイトにおとずれてくれてありがとうございます!<br />
@@ -48,9 +50,9 @@ export default function FirstView() {
                             <Text fontSize={'3xl'}>
                                 HTMLにスタイルを当てるように書くことが可能。<br />
                                 ReactもHTMLと同様CSSファイルを読み込ませる必要があるので、<br />
-                                <code>
+                                <Box as='code'>
                                     import style from 'ファイルがある場所'
-                                </code><br />
+                                </Box><br />
                                 を書くことで読み込みが完了する。
                             </Text>
                         </Box>
@@ -74,16 +76,16 @@ export default function FirstView() {
                         <Box>
                             <Text fontSize={'3xl'}>
                                 まず、ReactにSass/Scssの環境を導入する必要があるので、<br />
-                                <code>
+                                <Box as='code'>
                                     npm i --save-dev sass or
                                     yarn i --save-dev sass
-                                </code><br />
+                                </Box><br />
                                 を書く必要がある。<br />
                                 HTMLにスタイルを当てるように書くことが可能。<br />
                                 ReactもHTMLと同様Scssファイルを読み込ませる必要があるので、<br />
-                                <code>
+                                <Box as='code'>
                                     import style from 'ファイルがある場所'
-                                </code><br />
+                                </Box><br />
                                 を書くことで読み込みが完了する。
                             </Text>
                         </Box>
@@ -95,8 +97,35 @@ export default function FirstView() {
                             </Link>
                         </Box>
                     </Box>
+                    <Box as='section'>
+                        <Box>
+                            <Text as={'h2'} fontSize={'6xl'}>ReactでのChakra-UI</Text>
+                        </Box>
+                        <Box>
+                            <Text fontSize={'3xl'}>
+                                HTMLのタグの中に直接CSSのプロパティを書くことが可能。<br />
+                                Chakra-UI用の専用のタグが存在し、<br />
+                                <Box as='code'>
+                                    npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+                                </Box><br />
+                                を書くことで読み込みが完了する。
+                            </Text>
+                        </Box>
+                        <Box
+                            w={'15rem'}
+                            h={'4rem'}
+                            border={'1px solid tomato'}
+                            borderRadius={'10px'}
+                            textAlign={'center'}>
+                            <Link href={'/'}>
+                                <Text fontWeight={'bold'} fontSize={'2xs'} padding={'1.2rem'}>
+                                    詳しくはこちらから
+                                </Text>
+                            </Link>
+                        </Box>
+                    </Box>
                 </Flex>
-            </Box >
+            </Flex >
         </>
     )
 }

@@ -13,7 +13,7 @@ export default function Navigation() {
                     flexDir={'column'}
                     h={'200rem'}
                     w={'25rem'}
-                    bg={'#999'}
+                    bg={'blue.100'}
                 >
                     <Link href={'/'}>
                         {/* <Image src={''} alt='' /> */}
