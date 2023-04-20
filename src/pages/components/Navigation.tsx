@@ -13,7 +13,7 @@ export default function Navigation() {
                     flexDir={'column'}
                     h={'200rem'}
                     w={'25rem'}
-                    bg={'blue'}
+                    bgGradient={'linear(purple.200,blue.200)'}
                 >
                     <Link href={'/'}>
                         {/* <Image src={''} alt='' /> */}
@@ -39,8 +39,9 @@ export default function Navigation() {
                                     bg={'#fff'}
                                     justifyContent={'center'}
                                     alignItems={'center'}
-                                    border={'1px solid #333'}
                                     borderRadius={'10px'}
+                                    fontWeight={'bold'}
+                                    _hover={{ bg: 'purple.400', color: 'blue.100' }}
                                 >
                                     <SiCss3 />
                                     <Text fontSize={'2xl'} marginLeft={'1rem'}>CSS</Text>
@@ -53,10 +54,12 @@ export default function Navigation() {
                                     bg={'#fff'}
                                     justifyContent={'center'}
                                     alignItems={'center'}
-                                    border={'1px solid #333'}
                                     borderRadius={'10px'}
                                     display={'flex'}
-                                    fontSize={'4xl'}>
+                                    fontSize={'4xl'}
+                                    fontWeight={'bold'}
+                                    _hover={{ bg: 'purple.400', color: 'blue.100' }}
+                                >
                                     <SiSass />
                                     <Text fontSize={'2xl'} marginLeft={'1rem'}>Sass/Scss</Text>
                                 </ListItem>
@@ -67,10 +70,11 @@ export default function Navigation() {
                                     h={'4rem'}
                                     justifyContent={'center'}
                                     alignItems={'center'}
-                                    border={'1px solid #333'}
                                     borderRadius={'10px'}
                                     display={'flex'}
                                     bg={'#fff'}
+                                    fontWeight={'bold'}
+                                    _hover={{ bg: 'purple.400', color: 'blue.100' }}
                                     fontSize={'4xl'}>
                                     <SiChakraui />
                                     <Text fontSize={'2xl'} marginLeft={'1rem'}>Chakra-UI</Text>

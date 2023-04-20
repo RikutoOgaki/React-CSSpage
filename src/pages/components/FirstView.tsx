@@ -105,9 +105,13 @@ export default function FirstView() {
                         <Box>
                             <Text fontSize={'3xl'}>
                                 HTMLのタグの中に直接CSSのプロパティを書くことが可能。<br />
-                                Chakra-UI用の専用のタグが存在し、<br />
+                                Chakra-UI用の専用のタグが存在します。<br />
                                 <Box as='code'>
                                     npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+                                </Box><br />
+                                を書く必要がある。<br />
+                                <Box as='code'>
+                                    import ｛専用タグ｝from '@chakra-ui/react'
                                 </Box><br />
                                 を書くことで読み込みが完了する。
                             </Text>
