@@ -19,20 +19,18 @@ export default function CSS() {
                     margin={'0 3rem'}
                     padding={'2rem'}>
                     <Box as='section'>
-                        <Box>
-                            <Text>React + CSSについて</Text>
-                        </Box>
-                        <Box>
-                            <Text></Text>
-                        </Box>
+                        <Text fontSize={'7xl'}>React + CSSについて</Text>
+                        <Text fontSize={'3xl'}>
+                            普通のプレーンなCSSではHTML同様に当てることができる。<br />
+                            なので多く語ることは正直ない。
+                        </Text>
                     </Box>
-                    <Box>
-                        <Box>
-                            <Text>Drop Down Menu</Text>
-                        </Box>
-                        <Box height={'25rem'}>
+                    <Box as='section'>
+                        <Text fontSize={'7xl'}>1 . Drop Down Menu</Text>
+                        <Box marginTop={'10rem'} height={'25rem'}>
                             <Drop />
                         </Box>
+
                     </Box>
                 </Flex>
             </Flex>
