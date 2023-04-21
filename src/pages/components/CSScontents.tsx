@@ -23,9 +23,27 @@ export default function CSS() {
                         </Text>
                     </Box>
                     <Box
-                        w={'100%'}
-                        as='section'>
-                        <Text fontSize={'7xl'}>1 . Drop Down Menu</Text>
+                        as='section'
+                        w={'90rem'}
+                    >
+                        <Text fontSize={'7xl'} marginBottom={'4rem'}>1 . Drop Down Menu</Text>
+                        <Box w={'100%'} h={'50rem'}>
+                            <Box
+                                w={'110%'}
+                                h={'50rem'}
+                                as='iframe'
+                                src="https://codesandbox.io/embed/xenodochial-sun-l6tcqo?fontsize=14&hidenavigation=1&theme=dark"
+                                title="xenodochial-sun-l6tcqo"
+                                allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+                                sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+                            ></Box>
+                        </Box>
+                    </Box>
+                    <Box
+                        as='section'
+                        w={'90rem'}
+                    >
+                        <Text fontSize={'7xl'} marginBottom={'4rem'}>2 . Drop Down Menu</Text>
                         <Box w={'100%'} h={'50rem'}>
                             <Box
                                 w={'110%'}
