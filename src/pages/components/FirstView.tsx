@@ -1,7 +1,10 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
-import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function FirstView() {
+
+    const router = useRouter()
+
     return (
         <>
             <Flex
@@ -50,17 +53,17 @@ export default function FirstView() {
                         <Box
                             w={'20rem'}
                             h={'4rem'}
-                            // border={'1px solid tomato'}
                             borderRadius={'10px'}
                             bgGradient={'linear(purple.200,blue.200)'}
                             color={'#fff'}
                             marginTop={'3rem'}
-                            textAlign={'center'}>
-                            <Link href={'/'}>
-                                <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
-                                    詳しくはこちらから
-                                </Text>
-                            </Link>
+                            textAlign={'center'}
+                            cursor={'pointer'}
+                            onClick={() => router.push('/CSSpage')}
+                        >
+                            <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
+                                詳しくはこちらから
+                            </Text>
                         </Box>
                     </Box>
                     <Box as='section'>
@@ -82,17 +85,17 @@ export default function FirstView() {
                         <Box
                             w={'20rem'}
                             h={'4rem'}
-                            // border={'1px solid tomato'}
                             borderRadius={'10px'}
                             bgGradient={'linear(purple.200,blue.200)'}
                             color={'#fff'}
                             marginTop={'3rem'}
-                            textAlign={'center'}>
-                            <Link href={'/'}>
-                                <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
-                                    詳しくはこちらから
-                                </Text>
-                            </Link>
+                            textAlign={'center'}
+                            cursor={'pointer'}
+                            onClick={() => router.push('/Sasspage')}
+                        >
+                            <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
+                                詳しくはこちらから
+                            </Text>
                         </Box>
                     </Box>
                     <Box as='section'>
@@ -115,17 +118,17 @@ export default function FirstView() {
                         <Box
                             w={'20rem'}
                             h={'4rem'}
-                            // border={'1px solid tomato'}
                             borderRadius={'10px'}
                             bgGradient={'linear(purple.200,blue.200)'}
                             color={'#fff'}
                             marginTop={'3rem'}
-                            textAlign={'center'}>
-                            <Link href={'/'}>
-                                <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
-                                    詳しくはこちらから
-                                </Text>
-                            </Link>
+                            textAlign={'center'}
+                            cursor={'pointer'}
+                            onClick={() => router.push('/Chakra-UIpage')}
+                        >
+                            <Text fontWeight={'extrabold'} fontSize={'2xl'} padding={'.9rem'}>
+                                詳しくはこちらから
+                            </Text>
                         </Box>
                     </Box>
                 </Flex>
