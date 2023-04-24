@@ -36,8 +36,8 @@ export default function Chakra() {
                         </Text>
                     </Box>
                     <Box as='section' w={'90rem'}>
-                        <Text fontSize={'7xl'}>1 . Menu</Text>
-                        <Box>
+                        <Text fontSize={'7xl'}>1 . Hamburger Menu</Text>
+                        <Box w={'100%'} h={'50rem'}>
 
                         </Box>
                     </Box>
