@@ -1,5 +1,4 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
-import Drop from './parts/cssparts/sample01'
 
 
 export default function CSS() {
