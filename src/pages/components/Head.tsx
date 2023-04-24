@@ -14,13 +14,13 @@ export default function Head() {
                 alignItems={'center'}
                 position={'fixed'}
                 top={0}>
-                <Box paddingLeft={{ base: '20rem', lg: '40rem' }}>
+                <Box paddingLeft={{ base: '10rem', lg: '20rem' }}>
                     <Text
                         as={'h2'}
-                        fontSize={'7xl'}
+                        fontSize={{ base: '4xl', lg: '7xl' }}
                         fontWeight={'bold'}>Styles in React</Text>
                 </Box>
-                <Flex paddingRight={'50rem'} gap={'4rem'}>
+                <Flex paddingRight={{ base: '50rem', lg: '40rem' }} gap={'2rem'}>
                     <Link href={'https://github.com/RikutoOgaki/React-CSSpage'}>
                         <Text fontSize={'5xl'}>
                             <SiGithub />
