@@ -36,7 +36,10 @@ export default function Chakra() {
                         </Text>
                     </Box>
                     <Box as='section' w={'90rem'}>
-                        <Text>1. Drop Down Menu</Text>
+                        <Text fontSize={'7xl'}>1 . Menu</Text>
+                        <Box>
+
+                        </Box>
                     </Box>
                 </Flex>
             </Flex>
