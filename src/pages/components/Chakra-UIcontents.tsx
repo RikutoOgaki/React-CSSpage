@@ -35,6 +35,9 @@ export default function Chakra() {
                             デザインに一貫性をもたせることができる。<br />
                         </Text>
                     </Box>
+                    <Box as='section' w={'90rem'}>
+                        <Text>1. Drop Down Menu</Text>
+                    </Box>
                 </Flex>
             </Flex>
         </>
