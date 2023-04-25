@@ -17,7 +17,7 @@ export default function FirstView() {
                     justifyContent={'center'}
                     alignItems={'flex-start'}
                     gap={'10rem'}
-                    // margin={'0 3rem'}
+                    margin={'0 3rem'}
                     padding={'2rem'}>
                     <Box as='section'>
                         <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>Reactでのスタイル</Text>
@@ -43,7 +43,7 @@ export default function FirstView() {
                         </Text>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>ReactでのCSS</Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>ReactでのCSS</Text>
                         <Text fontSize={{ base: '2xl', lg: '3xl' }}>
                             HTMLにスタイルを当てるように書くことが可能。<br />
                             ReactもHTMLと同様CSSファイルを読み込ませる必要がある。<br />
@@ -69,7 +69,7 @@ export default function FirstView() {
                         </Box>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>ReactでのSass/Scss</Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>ReactでのSass/Scss</Text>
                         <Text fontSize={{ base: '2xl', lg: '3xl' }}>
                             まず、ReactにSass/Scssの環境を導入する必要がある。<br />
                             導入したあと、CSSと同様に読み込ませる必要があるので、<br />
@@ -101,7 +101,7 @@ export default function FirstView() {
                         </Box>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>ReactでのChakra-UI</Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>ReactでのChakra-UI</Text>
                         <Text fontSize={{ base: '2xl', lg: '3xl' }}>
                             まず、Chakra-UIの環境を導入する必要がある。<br />
                             HTMLのタグの中に直接CSSのプロパティを書くことが可能。<br />

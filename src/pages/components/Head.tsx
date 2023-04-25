@@ -63,10 +63,10 @@ export default function Head() {
                 <Box>
                     <Text
                         as={'h2'}
-                        fontSize={{ base: '2xl', lg: '7xl' }}
+                        fontSize={{ base: '2xl', lg: '8xl' }}
                         fontWeight={'bold'}>Styles in React</Text>
                 </Box>
-                <Flex paddingRight={{ base: '1rem', lg: '50rem' }} gap={'2rem'}>
+                <Flex paddingRight={{ base: '1rem', lg: '50rem' }} gap={'3rem'}>
                     <Link href={'https://github.com/RikutoOgaki/React-CSSpage'}>
                         <Text fontSize={{ base: '2rem', lg: '4rem' }}>
                             <SiGithub />
