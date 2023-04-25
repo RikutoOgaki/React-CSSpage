@@ -13,26 +13,25 @@ export default function CSS() {
                 <Flex
                     flexDir={'column'}
                     justifyContent={'center'}
-                    alignItems={'flex-start'}
+                    alignItems={'cneter'}
                     gap={'10rem'}
                     margin={'0 3rem'}
                     padding={'2rem'}>
                     <Box as='section'>
-                        <Text fontSize={'2xl'}>React + CSSについて</Text>
-                        <Text fontSize={'3xl'}>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>React + CSSについて</Text>
+                        <Text fontSize={{ base: '2xl', lg: '3xl' }}>
                             普通のプレーンなCSSではHTML同様に当てることができる。<br />
                             なので多く語ることは正直ない。
                         </Text>
                     </Box>
                     <Box
-                        as='section'
-                    // w={'90rem'}
-                    >
+                        as='section'>
                         <Text fontSize={'7xl'} marginBottom={'4rem'}>1 . Drop Down Menu</Text>
-                        <Box w={'100%'} h={'50rem'}>
+                        <Box h={'50rem'}>
                             <Box
-                                w={'110%'}
+                                w={{ base: '40rem', lg: '110%' }}
                                 h={'50rem'}
+                                margin={'0'}
                                 as='iframe'
                                 src="https://codesandbox.io/embed/xenodochial-sun-l6tcqo?fontsize=14&hidenavigation=1&theme=dark"
                                 title="xenodochial-sun-l6tcqo"
@@ -47,12 +46,7 @@ export default function CSS() {
                     >
                         <Text fontSize={'7xl'} marginBottom={'4rem'}>2 . Drop Down Menu</Text>
                         <Box w={'100%'} h={'50rem'}>
-                            <Box
-                                w={'110%'}
-                                h={'50rem'}
-                                as='iframe'
-
-                            ></Box>
+                            <Box as='iframe'></Box>
                         </Box>
                     </Box>
                 </Flex >

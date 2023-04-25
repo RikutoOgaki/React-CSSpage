@@ -8,6 +8,7 @@ export default function FirstView() {
     return (
         <>
             <Flex
+                w={'100%'}
                 justifyContent={'center'}
                 alignItems={'center'}
                 marginLeft={{ base: '25rem', sx: '2rem' }}
