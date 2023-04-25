@@ -1,4 +1,20 @@
-import { Box, Flex, Text, List, OrderedList, ListItem, Button } from '@chakra-ui/react'
+import {
+    Box,
+    Flex,
+    Text,
+    List,
+    OrderedList,
+    ListItem,
+    Button,
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+    MenuItemOption,
+    MenuGroup,
+    MenuOptionGroup,
+    MenuDivider,
+} from '@chakra-ui/react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { SiCss3, SiSass, SiChakraui, SiReact } from 'react-icons/si'
@@ -10,6 +26,27 @@ export default function Navigation() {
 
     return (
         <>
+            {/* <Box>
+                <Menu>
+                    <MenuButton
+                        as={IconButton}
+                        aria-label='Options'
+                        icon={<HamburgerIcon />}
+                        variant='outline'
+                    />
+                    <MenuList>
+                        <MenuItem icon={<SiCss3 />} command='⌘T'>
+                            CSS
+                        </MenuItem>
+                        <MenuItem icon={<SiSass />} command='⌘N'>
+                            Sass/Scss
+                        </MenuItem>
+                        <MenuItem icon={<SiChakraui />} command='⌘⇧N'>
+                            Open Closed Tab
+                        </MenuItem>
+                    </MenuList>
+                </Menu>
+            </Box> */}
             <Box>
                 <Flex
                     as='aside'
