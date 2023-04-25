@@ -14,7 +14,9 @@ import {
     MenuGroup,
     MenuOptionGroup,
     MenuDivider,
+    IconButton
 } from '@chakra-ui/react'
+import { HamburgerIcon } from '@chakra-ui/icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import { SiCss3, SiSass, SiChakraui, SiReact } from 'react-icons/si'
@@ -26,7 +28,7 @@ export default function Navigation() {
 
     return (
         <>
-            {/* <Box>
+            <Box display={{ base: 'none', sm: 'block' }}>
                 <Menu>
                     <MenuButton
                         as={IconButton}
@@ -46,8 +48,8 @@ export default function Navigation() {
                         </MenuItem>
                     </MenuList>
                 </Menu>
-            </Box> */}
-            <Box>
+            </Box>
+            <Box display={{ base: 'none', lg: 'block' }}>
                 <Flex
                     as='aside'
                     position={'fixed'} top={0} left={0}
