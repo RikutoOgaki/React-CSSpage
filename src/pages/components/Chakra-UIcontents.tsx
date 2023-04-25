@@ -92,7 +92,7 @@ export default function Chakra() {
                         </Text>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>＜Text＞</Text>
+                        <Text fontSize={'7xl'}>3 . ＜Text＞</Text>
                         <Text fontSize={'3xl'}>
                             テキストを扱いに使われ、
                             <Box as='code' color={'red.500'}>
@@ -100,7 +100,7 @@ export default function Chakra() {
                             </Box>のようなもの。<br />
                             HTMLにコンパイルされる際には、＜p＞に変換されます。<br />
                             HTMLのテキストに関連するタグはたくさんあるので、asを使って別のタグに変えながらやると<br />
-                            HTMLの文法に沿って書くことができると思います。
+                            HTMLの文法に沿って書くことができます。
                         </Text>
                     </Box>
                 </Flex>
