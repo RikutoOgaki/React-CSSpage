@@ -76,6 +76,12 @@ export default function Chakra() {
                             このタグを私は一番使います。
                         </Text>
                     </Box>
+                    <Box as='section'>
+                        <Text fontSize={'7xl'}>＜Text＞</Text>
+                        <Text fontSize={'3xl'}>
+
+                        </Text>
+                    </Box>
                 </Flex>
             </Flex>
         </>
