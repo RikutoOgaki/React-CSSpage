@@ -35,8 +35,21 @@ export default function Chakra() {
                             デザインに一貫性をもたせることができる。<br />
                             専用のタグやレスポンシブを効かせたページを作ることがとても楽にできます。<br />
                             BootstrapやTailwind cssなどもございますが、そちらとの比較は別ページで行います。<br />
-                            随時更新していきますのでお待ち下さい。
+                            随時更新していきますのでお待ち下さい。<br />
+                            この記事見ても物足りない。わからないことなどございましたら、下記のリンクに飛んで自分で深ぼって見てください。
                         </Text>
+                        <Box
+                            w={'20rem'}
+                            h={'4rem'}
+                            bgGradient={'linear(blue.200,purple.200)'}
+                            textAlign={'center'}
+                            lineHeight={'2.2'}
+                            cursor={'pointer'}
+                            borderRadius={'10px'}
+                            onClick={() => router.push('https://chakra-ui.com/getting-started')}
+                        >
+                            <Text fontSize={'3xl'} color={'#fff'} fontWeight={'extrabold'}>Chakra-UI公式ページ</Text>
+                        </Box>
                     </Box>
                     <Box as='section'>
                         <Text fontSize={'7xl'}>Chakra-UIのここがすごい！</Text>
@@ -59,6 +72,7 @@ export default function Chakra() {
                             <Box as='code' color={'red.500'}>
                                 ＜div＞
                             </Box>のようなもの。<br />
+                            HTMLにコンパイルされる際には、＜div＞に変換されます。<br />
                             特によく使うタグの一つだと私は考えます。
                         </Text>
                     </Box>
@@ -69,6 +83,7 @@ export default function Chakra() {
                             <Box as='code' color={'red.500'}>
                                 ＜div＞
                             </Box>のように使うことが可能です。<br />
+                            HTMLにコンパイルされる際には＜div＞に変換されます。<br />
                             CSS、Sass/Scssを書いたことがある人はわかると思います。<br />
                             display:flex;でスタイルを当てることが多いです。<br />
                             なんとこのタグ１つでこのタグの中にある子要素はすべて横並びになるのです。<br />
@@ -79,6 +94,12 @@ export default function Chakra() {
                     <Box as='section'>
                         <Text fontSize={'7xl'}>＜Text＞</Text>
                         <Text fontSize={'3xl'}>
+                            テキストを扱いに使われ、
+                            <Box as='code' color={'red.500'}>
+                                ＜p＞
+                            </Box>のようなもの。<br />
+                            HTMLにコンパイルされる際には、＜p＞に変換されます。<br />
+                            HTMLのテキストに関連するタグはたくさんあります。
 
                         </Text>
                     </Box>
