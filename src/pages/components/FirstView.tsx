@@ -20,7 +20,7 @@ export default function FirstView() {
                     // margin={'0 3rem'}
                     padding={'2rem'}>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>Reactでのスタイル</Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>Reactでのスタイル</Text>
                         <Text fontSize={'3xl'}>このサイトにおとずれてくれてありがとうございます!<br />
                             このサイトでは、ReactまたはHTMLでスタイルを当てることを目的としたデザインページです。<br />
                             Reactを使い始める人やReactを使っている人がページを作る中でどのようにしてスタイルを当てて行くかを教え、<br />
@@ -32,7 +32,7 @@ export default function FirstView() {
                         </Text>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>注意事項</Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>注意事項</Text>
                         <Text fontSize={'3xl'}>
                             今回のReactについてはnext.js version13を採用しています。<br />
                             versionや環境によって導入できないなどの不具合がある場合がございますので、ご了承ください。<br />

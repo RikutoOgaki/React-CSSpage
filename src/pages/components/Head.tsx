@@ -14,32 +14,36 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import { SiCss3, SiSass, SiChakraui, SiReact } from 'react-icons/si'
 import { SiGithub, SiTwitter } from 'react-icons/si'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function Head() {
+
+    const router = useRouter()
+
     return (
         <>
             <Flex
                 w={'100%'}
                 h={'8vh'}
                 bg={'#fff'}
-                marginLeft={{ base: '25rem', xs: '2rem' }}
+                marginLeft={{ lg: '25rem', sm: '2rem' }}
                 justifyContent={'space-around'}
                 alignItems={'center'}
                 position={'fixed'}
                 zIndex={'0'}
                 top={0}>
-                <Box display={{ base: 'none', sm: 'block' }}>
+                <Box display={{ sm: 'block', lg: 'none' }}>
                     <Menu>
                         <MenuButton
                             as={IconButton}
                             aria-label='Options'
-                            icon={<HamburgerIcon w={'1rem'} h={'1rem'} />}
+                            icon={<HamburgerIcon w={'2rem'} h={'2rem'} />}
                             variant='outline'
-                            w={'2rem'}
-                            h={'2rem'}
+                            w={'3rem'}
+                            h={'3rem'}
                         />
                         <MenuList>
-                            <MenuItem icon={<SiCss3 />}>
+                            <MenuItem icon={<SiCss3 />} onClick={() => router.push('/CSSpage')}>
                                 CSS
                             </MenuItem>
                             <MenuItem icon={<SiSass />}>
@@ -59,12 +63,12 @@ export default function Head() {
                 </Box>
                 <Flex paddingRight={{ base: '1rem', lg: '50rem' }} gap={'2rem'}>
                     <Link href={'https://github.com/RikutoOgaki/React-CSSpage'}>
-                        <Text fontSize={{ sm: '1rem', lg: '3rem' }}>
+                        <Text fontSize={{ sm: '2rem', lg: '4rem' }}>
                             <SiGithub />
                         </Text>
                     </Link>
                     <Link href={'https://twitter.com/Rikuto_Ogaki'}>
-                        <Text fontSize={{ sm: '1rem', lg: '3rem' }}>
+                        <Text fontSize={{ sm: '2rem', lg: '4rem' }}>
                             <SiTwitter />
                         </Text>
                     </Link>
