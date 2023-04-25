@@ -41,16 +41,21 @@ export default function Head() {
                             variant='outline'
                             w={'3rem'}
                             h={'3rem'}
+                            bgGradient={'linear(purple.200,blue.200)'}
+                            _hover={{ bgGradient: 'linear(purple.200,blue.200)' }}
                         />
                         <MenuList>
                             <MenuItem icon={<SiCss3 />} onClick={() => router.push('/CSSpage')}>
                                 CSS
                             </MenuItem>
-                            <MenuItem icon={<SiSass />}>
+                            <MenuItem icon={<SiSass />} onClick={() => router.push('/Sasspage')}>
                                 Sass/Scss
                             </MenuItem>
-                            <MenuItem icon={<SiChakraui />}>
+                            <MenuItem icon={<SiChakraui />} onClick={() => router.push('/Chakra-UIpage')}>
                                 Chakra-UI
+                            </MenuItem>
+                            <MenuItem icon={<SiReact />} onClick={() => router.push('/')}>
+                                Top
                             </MenuItem>
                         </MenuList>
                     </Menu>
@@ -63,12 +68,12 @@ export default function Head() {
                 </Box>
                 <Flex paddingRight={{ base: '1rem', lg: '50rem' }} gap={'2rem'}>
                     <Link href={'https://github.com/RikutoOgaki/React-CSSpage'}>
-                        <Text fontSize={{ sm: '2rem', lg: '4rem' }}>
+                        <Text fontSize={{ base: '2rem', lg: '4rem' }}>
                             <SiGithub />
                         </Text>
                     </Link>
                     <Link href={'https://twitter.com/Rikuto_Ogaki'}>
-                        <Text fontSize={{ sm: '2rem', lg: '4rem' }}>
+                        <Text fontSize={{ base: '2rem', lg: '4rem' }}>
                             <SiTwitter />
                         </Text>
                     </Link>
