@@ -26,8 +26,9 @@ export default function FirstView() {
                             Reactを使い始める人やReactを使っている人がページを作る中でどのようにしてスタイルを当てて行くかを教え、<br />
                             HTMLでスタイルを当てるときこれはどのように実装するのだろうと悩んでいる人に<br />
                             完成を向けて補助していきます。<br />
-                            一つのテーマ(Component)に沿ってCSS,Sass/Scss,Chakra-UIそれぞれでの書き方で書いています。<br />
-                            作品としてはものは同じです。
+                            一つのテーマ(Component)に沿ってCSS,Sass/Scssそれぞれでの書き方で書いています。<br />
+                            作品としてはものは同じです。<br />
+                            Chakra-UIの方では書き方をメインに載せていきます。
                         </Text>
                     </Box>
                     <Box as='section'>
