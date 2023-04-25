@@ -16,7 +16,6 @@ import {
     MenuDivider,
     IconButton
 } from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import { SiCss3, SiSass, SiChakraui, SiReact } from 'react-icons/si'
@@ -28,27 +27,6 @@ export default function Navigation() {
 
     return (
         <>
-            <Box display={{ base: 'none', sm: 'block' }}>
-                <Menu>
-                    <MenuButton
-                        as={IconButton}
-                        aria-label='Options'
-                        icon={<HamburgerIcon />}
-                        variant='outline'
-                    />
-                    <MenuList>
-                        <MenuItem icon={<SiCss3 />} command='⌘T'>
-                            CSS
-                        </MenuItem>
-                        <MenuItem icon={<SiSass />} command='⌘N'>
-                            Sass/Scss
-                        </MenuItem>
-                        <MenuItem icon={<SiChakraui />} command='⌘⇧N'>
-                            Open Closed Tab
-                        </MenuItem>
-                    </MenuList>
-                </Menu>
-            </Box>
             <Box display={{ base: 'none', lg: 'block' }}>
                 <Flex
                     as='aside'

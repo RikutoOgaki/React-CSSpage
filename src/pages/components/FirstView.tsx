@@ -10,14 +10,14 @@ export default function FirstView() {
             <Flex
                 justifyContent={'center'}
                 alignItems={'center'}
-                marginLeft={'25rem'}
+                marginLeft={{ base: '25rem', sx: '2rem' }}
                 paddingTop={'8vh'}>
                 <Flex
                     flexDir={'column'}
                     justifyContent={'center'}
                     alignItems={'flex-start'}
                     gap={'10rem'}
-                    margin={'0 3rem'}
+                    // margin={'0 3rem'}
                     padding={'2rem'}>
                     <Box as='section'>
                         <Text fontSize={'7xl'}>Reactでのスタイル</Text>
