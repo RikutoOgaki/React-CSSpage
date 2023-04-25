@@ -16,8 +16,9 @@ export default function Sass() {
                     <Box as='section'>
                         <Text fontSize={'7xl'}>React + Sass/Scssについて</Text>
                         <Text fontSize={'3xl'}>
-                            普通のプレーンなCSSではHTML同様に当てることができる。<br />
-                            なので多く語ることは正直ない。
+                            Sass/ScssではCSSと同様にスタイルを当てることができる。<br />
+                            Sass/Scssを普通のHTMLに導入する際にはgulpなどを使ってCSSにコンパイルしてスタイルを当てる。<br />
+                            ReactではCSS同様importして、classNameをつけて使用することができる。
                         </Text>
                     </Box>
                     <Box
