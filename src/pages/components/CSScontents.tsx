@@ -7,15 +7,18 @@ export default function CSS() {
             <Flex
                 justifyContent={'center'}
                 alignItems={'center'}
+                marginLeft={{ base: '25rem', sx: '2rem' }}
                 paddingTop={'8vh'}
             >
                 <Flex
                     flexDir={'column'}
                     justifyContent={'center'}
                     alignItems={'flex-start'}
-                    gap={'10rem'}>
+                    gap={'10rem'}
+                    margin={'0 3rem'}
+                    padding={'2rem'}>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>React + CSSについて</Text>
+                        <Text fontSize={'2xl'}>React + CSSについて</Text>
                         <Text fontSize={'3xl'}>
                             普通のプレーンなCSSではHTML同様に当てることができる。<br />
                             なので多く語ることは正直ない。
@@ -23,7 +26,7 @@ export default function CSS() {
                     </Box>
                     <Box
                         as='section'
-                        w={'90rem'}
+                    // w={'90rem'}
                     >
                         <Text fontSize={'7xl'} marginBottom={'4rem'}>1 . Drop Down Menu</Text>
                         <Box w={'100%'} h={'50rem'}>
