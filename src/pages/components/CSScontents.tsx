@@ -7,7 +7,7 @@ export default function CSS() {
             <Flex
                 justifyContent={'center'}
                 alignItems={'center'}
-                marginLeft={{ base: '25rem', sx: '2rem' }}
+                marginLeft={{ base: '25rem', sx: 'rem' }}
                 paddingTop={'8vh'}
             >
                 <Flex
@@ -15,7 +15,6 @@ export default function CSS() {
                     justifyContent={'center'}
                     alignItems={'cneter'}
                     gap={'10rem'}
-                    margin={'0 3rem'}
                     padding={'2rem'}>
                     <Box as='section'>
                         <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>React + CSSについて</Text>
