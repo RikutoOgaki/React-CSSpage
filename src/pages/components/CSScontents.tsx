@@ -7,14 +7,14 @@ export default function CSS() {
             <Flex
                 justifyContent={'center'}
                 alignItems={'center'}
-                marginLeft={{ base: '25rem', sx: 'rem' }}
                 paddingTop={'8vh'}
             >
                 <Flex
                     flexDir={'column'}
                     justifyContent={'center'}
-                    alignItems={'cneter'}
+                    alignItems={'flex-start'}
                     gap={'10rem'}
+                    margin={'0 3rem'}
                     padding={'2rem'}>
                     <Box as='section'>
                         <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>React + CSSについて</Text>
@@ -25,10 +25,10 @@ export default function CSS() {
                     </Box>
                     <Box
                         as='section'>
-                        <Text fontSize={'7xl'} marginBottom={'4rem'}>1 . Drop Down Menu</Text>
+                        <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={'4rem'}>1 . Drop Down Menu</Text>
                         <Box h={'50rem'}>
                             <Box
-                                w={{ base: '40rem', lg: '110%' }}
+                                w={{ base: '30rem', lg: '100rem' }}
                                 h={'50rem'}
                                 margin={'0'}
                                 as='iframe'
@@ -39,7 +39,7 @@ export default function CSS() {
                             ></Box>
                         </Box>
                     </Box>
-                    <Box
+                    {/* <Box
                         as='section'
                         w={'90rem'}
                     >
@@ -47,7 +47,7 @@ export default function CSS() {
                         <Box w={'100%'} h={'50rem'}>
                             <Box as='iframe'></Box>
                         </Box>
-                    </Box>
+                    </Box> */}
                 </Flex >
             </Flex >
         </>
