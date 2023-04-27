@@ -17,10 +17,12 @@ export default function Chakra() {
                     justifyContent={'center'}
                     alignItems={'flex-start'}
                     gap={'10rem'}
+                    margin={'0 3rem'}
+                    padding={'2rem'}
                 >
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>React + Chakra-UIについて</Text>
-                        <Text fontSize={'3xl'}>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }}>React + Chakra-UIについて</Text>
+                        <Text fontSize={{ base: '2xs', lg: '3xl' }}>
                             まずそもそもChakra-UIとはなにか。<br />
                             Chakra-UIは
                             <Text
@@ -46,16 +48,17 @@ export default function Chakra() {
                             lineHeight={'2.2'}
                             cursor={'pointer'}
                             borderRadius={'10px'}
+                            marginTop={'3rem'}
                             onClick={() => router.push('https://chakra-ui.com/getting-started')}
                         >
                             <Text fontSize={'3xl'} color={'#fff'} fontWeight={'extrabold'}>Chakra-UI公式ページ</Text>
                         </Box>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>Chakra-UIのここがすごい！</Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }}>Chakra-UIのここがすごい！</Text>
                         <Box paddingTop={'3rem'}>
                             <Text fontSize={'5xl'} paddingBottom={'2rem'}>1 .  タグの中にCSSプロパティを書くことができる！</Text>
-                            <Text fontSize={'3xl'}>
+                            <Text fontSize={{ base: '2xs', lg: '3xl' }}>
                                 やはりタグだけでページを作ろうと思うと、限界がありしたいこともできません。<br />
                                 そこでChakra-UIはプロパティをあてたいタグの中に書くことができます。<br />
                                 下記のように書けばスタイルをあてることができます！
@@ -66,8 +69,8 @@ export default function Chakra() {
                         </Box>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'} marginBottom={'2rem'}> 1 . ＜Box＞</Text>
-                        <Text fontSize={'3xl'}>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} marginBottom={'2rem'}> 1 . ＜Box＞</Text>
+                        <Text fontSize={{ base: '2xs', lg: '3xl' }}>
                             HTMLでいいうところの
                             <Box as='code' color={'red.500'}>
                                 ＜div＞
@@ -77,8 +80,8 @@ export default function Chakra() {
                         </Text>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'} marginBottom={'2rem'}>2 . ＜Flex＞</Text>
-                        <Text fontSize={'3xl'}>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} marginBottom={'2rem'}>2 . ＜Flex＞</Text>
+                        <Text fontSize={{ base: '2xs', lg: '3xl' }}>
                             こちらのタグも、
                             <Box as='code' color={'red.500'}>
                                 ＜div＞
@@ -92,8 +95,8 @@ export default function Chakra() {
                         </Text>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={'7xl'}>3 . ＜Text＞</Text>
-                        <Text fontSize={'3xl'}>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }}>3 . ＜Text＞</Text>
+                        <Text fontSize={{ base: '2xs', lg: '3xl' }}>
                             テキストを扱いに使われ、
                             <Box as='code' color={'red.500'}>
                                 ＜p＞
