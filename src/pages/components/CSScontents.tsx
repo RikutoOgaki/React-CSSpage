@@ -8,6 +8,7 @@ export default function CSS() {
                 justifyContent={'center'}
                 alignItems={'center'}
                 paddingTop={'8vh'}
+                marginLeft={{ base: '2rem', lg: '25rem' }}
             >
                 <Flex
                     flexDir={'column'}
