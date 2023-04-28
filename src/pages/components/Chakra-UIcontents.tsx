@@ -64,6 +64,9 @@ export default function Chakra() {
                                     そこでChakra-UIはプロパティをあてたいタグの中に書くことができます。<br />
                                     下記のように書けばスタイルをあてることができます！
                                 </Text>
+                                <Box as='figure' margin={'2rem 0 0 4rem'}>
+                                    <Box as='img' src='/img/propatyimg.png' alt='' maxH={'30rem'} />
+                                </Box>
                             </Box>
                             <Box>
                                 <Text fontSize={{ base: '2xl', lg: '5xl' }} paddingBottom={'2rem'}>2 . 他のタグを自分で任意のタグにできる！</Text>
@@ -73,11 +76,14 @@ export default function Chakra() {
                                     そこで、タグの中に<Box as='code' color={'red.500'}>as</Box>と書き、<br />
                                     自分の変えたいタグに変えることができる。
                                 </Text>
+                                <Box as='figure' margin={'2rem 0 0 4rem'}>
+                                    <Box as='img' src='/img/asimg.png' alt='' maxH={'30rem'} />
+                                </Box>
                             </Box>
                         </Box>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={{ base: '4xl', lg: '7xl' }}>Chakra-UIのタグ</Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>Chakra-UIのタグ</Text>
                         <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
                             <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}> 1 . ＜Box＞</Text>
                             <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
@@ -88,6 +94,9 @@ export default function Chakra() {
                                 HTMLにコンパイルされる際には、＜div＞に変換されます。<br />
                                 特によく使うタグの一つだと私は考えます。
                             </Text>
+                            <Box as='figure' margin={'2rem 0 0 4rem'}>
+                                <Box as='img' src='/img/fleximg.png' alt='' maxH={'30rem'} />
+                            </Box>
                         </Box>
                         <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
                             <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}>2 . ＜Flex＞</Text>
@@ -103,6 +112,9 @@ export default function Chakra() {
                                 なので中央揃えや、等間隔に開けるなどが簡単にできてしまうのです。<br />
                                 このタグを私は一番使います。
                             </Text>
+                            <Box as='figure' margin={'2rem 0 0 4rem'}>
+                                <Box as='img' src='/img/boximg.png' alt='' maxH={'30rem'} />
+                            </Box>
                         </Box>
                         <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
                             <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}>3 . ＜Text＞</Text>
