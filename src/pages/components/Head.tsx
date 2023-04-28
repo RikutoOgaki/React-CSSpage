@@ -45,6 +45,9 @@ export default function Head() {
                             _hover={{ bgGradient: 'linear(purple.200,blue.200)' }}
                         />
                         <MenuList>
+                            <MenuItem icon={<SiReact />} onClick={() => router.push('/')}>
+                                Top
+                            </MenuItem>
                             <MenuItem icon={<SiCss3 />} onClick={() => router.push('/CSSpage')}>
                                 CSS
                             </MenuItem>
@@ -53,9 +56,6 @@ export default function Head() {
                             </MenuItem>
                             <MenuItem icon={<SiChakraui />} onClick={() => router.push('/Chakra-UIpage')}>
                                 Chakra-UI
-                            </MenuItem>
-                            <MenuItem icon={<SiReact />} onClick={() => router.push('/')}>
-                                Top
                             </MenuItem>
                         </MenuList>
                     </Menu>

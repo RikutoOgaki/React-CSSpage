@@ -46,7 +46,7 @@ export default function Navigation() {
                             lineHeight={1}
                             fontWeight={'extrabold'}>
                             <SiReact color='skyblue' />
-                            ReactCSS
+                            ReactStyles
                         </Flex>
                     </Link>
                     <Box as='nav' marginTop={'1rem'} padding={'2rem'} >
