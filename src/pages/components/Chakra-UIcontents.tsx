@@ -55,7 +55,7 @@ export default function Chakra() {
                         </Box>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={{ base: '4xl', lg: '7xl' }}>Chakra-UIのここがすごい！</Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>Chakra-UIのここがすごい！</Text>
                         <Box paddingTop={'3rem'}>
                             <Box marginBottom={'4rem'}>
                                 <Text fontSize={{ base: '2xl', lg: '5xl' }} paddingBottom={'2rem'}>1 .  タグの中にCSSプロパティを書くことができる！</Text>
