@@ -45,7 +45,7 @@ export default function FirstView() {
                     </Box>
                     <Box as='section'>
                         <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>ReactでのCSS</Text>
-                        <Text fontSize={{ base: '2xl', lg: '3xl' }}>
+                        <Text fontSize={{ base: '2xl', lg: '3xl' }} marginBottom={'2rem'}>
                             HTMLにスタイルを当てるように書くことが可能。<br />
                             ReactもHTMLと同様CSSファイルを読み込ませる必要がある。<br />
                             下記の内容を書くことで読み込みが完了する。
@@ -76,7 +76,7 @@ export default function FirstView() {
                             導入したあと、CSSと同様に読み込ませる必要があるので、<br />
                             下記の内容をそれぞれ書くことで完了する。
                         </Text>
-                        <Flex flexDir={'column'}>
+                        <Flex flexDir={'column'} marginTop={'2rem'}>
                             <Box as='code' fontSize={{ base: '2xl', lg: '3xl' }}>
                                 npm i --save-dev sass or
                                 yarn i --save-dev sass
@@ -103,7 +103,7 @@ export default function FirstView() {
                     </Box>
                     <Box as='section'>
                         <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>ReactでのChakra-UI</Text>
-                        <Text fontSize={{ base: '2xl', lg: '3xl' }}>
+                        <Text fontSize={{ base: '2xl', lg: '3xl' }} marginBottom={'2rem'}>
                             まず、Chakra-UIの環境を導入する必要がある。<br />
                             HTMLのタグの中に直接CSSのプロパティを書くことが可能。<br />
                             Chakra-UI用の専用のタグが存在します。<br />
@@ -112,7 +112,7 @@ export default function FirstView() {
                         <Box as={'code'} fontSize={{ base: '2xl', lg: '3xl' }}>
                             npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
                         </Box>
-                        <Text fontSize={{ base: '2xl', lg: '3xl' }}>
+                        <Text fontSize={{ base: '2xl', lg: '3xl' }} marginBottom={'2rem'} marginTop={'2rem'}>
                             専用をタグを使用する場合には下記の内容をファイルに読み込ませる必要がある。
                         </Text>
                         <Box as={'code'} fontSize={{ base: '2xl', lg: '3xl' }}>
