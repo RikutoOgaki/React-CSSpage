@@ -11,7 +11,7 @@ export default function FirstView() {
                 w={'100%'}
                 justifyContent={'center'}
                 alignItems={'center'}
-                marginLeft={{ base: '3rem', lg: '25rem' }}
+                marginLeft={{ base: '.5rem', lg: '25rem' }}
                 paddingTop={'8vh'}>
                 <Flex
                     flexDir={'column'}
