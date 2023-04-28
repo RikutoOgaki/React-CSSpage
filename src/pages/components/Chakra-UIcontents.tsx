@@ -59,7 +59,7 @@ export default function Chakra() {
                         <Box paddingTop={'3rem'}>
                             <Box marginBottom={'4rem'}>
                                 <Text fontSize={{ base: '2xl', lg: '5xl' }} paddingBottom={'2rem'}>1 .  タグの中にCSSプロパティを書くことができる！</Text>
-                                <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                                <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'3rem'}>
                                     やはりタグだけでページを作ろうと思うと、限界がありしたいこともできません。<br />
                                     そこでChakra-UIはプロパティをあてたいタグの中に書くことができます。<br />
                                     下記のように書けばスタイルをあてることができます！
@@ -70,7 +70,7 @@ export default function Chakra() {
                             </Box>
                             <Box>
                                 <Text fontSize={{ base: '2xl', lg: '5xl' }} paddingBottom={'2rem'}>2 . 他のタグを自分で任意のタグにできる！</Text>
-                                <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                                <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'3rem'}>
                                     Box,Flex,Textなどメインのタグが在る中で、HTMLのマークアップ正確にしようと思うと、<br />
                                     Chakra-UIの専用タグでは足りません。<br />
                                     そこで、タグの中に<Box as='code' color={'red.500'}>as</Box>と書き、<br />
@@ -86,7 +86,7 @@ export default function Chakra() {
                         <Text fontSize={{ base: '4xl', lg: '7xl' }} fontWeight={'extrabold'}>Chakra-UIのタグ</Text>
                         <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
                             <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}> 1 . ＜Box＞</Text>
-                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'3rem'}>
                                 HTMLでいいうところの
                                 <Box as='code' color={'red.500'}>
                                     ＜div＞
@@ -100,7 +100,7 @@ export default function Chakra() {
                         </Box>
                         <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
                             <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}>2 . ＜Flex＞</Text>
-                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'3rem'}>
                                 こちらのタグも、
                                 <Box as='code' color={'red.500'}>
                                     ＜div＞
@@ -118,7 +118,7 @@ export default function Chakra() {
                         </Box>
                         <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
                             <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}>3 . ＜Text＞</Text>
-                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'3rem'}>
                                 テキストを扱いに使われ、
                                 <Box as='code' color={'red.500'}>
                                     ＜p＞
