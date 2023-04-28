@@ -127,6 +127,9 @@ export default function Chakra() {
                                 HTMLのテキストに関連するタグはたくさんあるので、asを使って別のタグに変えながらやると<br />
                                 HTMLの文法に沿って書くことができます。
                             </Text>
+                            <Box as='figure' margin={'2rem 0 0 4rem'}>
+                                <Box as='img' src='/img/textmap.png' alt='' maxH={'30rem'} />
+                            </Box>
                         </Box>
                     </Box>
                 </Flex>
