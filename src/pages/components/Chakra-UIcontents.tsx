@@ -17,7 +17,7 @@ export default function Chakra() {
                     justifyContent={'center'}
                     alignItems={'flex-start'}
                     gap={'10rem'}
-                    margin={'0 3rem'}
+                    margin={'0 '}
                     padding={'2rem'}
                 >
                     <Box as='section'>
@@ -57,54 +57,65 @@ export default function Chakra() {
                     <Box as='section'>
                         <Text fontSize={{ base: '4xl', lg: '7xl' }}>Chakra-UIのここがすごい！</Text>
                         <Box paddingTop={'3rem'}>
-                            <Text fontSize={'5xl'} paddingBottom={'2rem'}>1 .  タグの中にCSSプロパティを書くことができる！</Text>
-                            <Text fontSize={{ base: '2xs', lg: '3xl' }}>
-                                やはりタグだけでページを作ろうと思うと、限界がありしたいこともできません。<br />
-                                そこでChakra-UIはプロパティをあてたいタグの中に書くことができます。<br />
-                                下記のように書けばスタイルをあてることができます！
-                            </Text>
-                            <Box
-                                as='iframe'
-                            ></Box>
+                            <Box marginBottom={'4rem'}>
+                                <Text fontSize={{ base: '2xl', lg: '5xl' }} paddingBottom={'2rem'}>1 .  タグの中にCSSプロパティを書くことができる！</Text>
+                                <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                                    やはりタグだけでページを作ろうと思うと、限界がありしたいこともできません。<br />
+                                    そこでChakra-UIはプロパティをあてたいタグの中に書くことができます。<br />
+                                    下記のように書けばスタイルをあてることができます！
+                                </Text>
+                            </Box>
+                            <Box>
+                                <Text fontSize={{ base: '2xl', lg: '5xl' }} paddingBottom={'2rem'}>2 . 他のタグを自分で任意のタグにできる！</Text>
+                                <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                                    Box,Flex,Textなどメインのタグが在る中で、HTMLのマークアップ正確にしようと思うと、<br />
+                                    Chakra-UIの専用タグでは足りません。<br />
+                                    そこで、タグの中に<Box as='code' color={'red.500'}>as</Box>と書き、<br />
+                                    自分の変えたいタグに変えることができる。
+                                </Text>
+                            </Box>
                         </Box>
                     </Box>
                     <Box as='section'>
-                        <Text fontSize={{ base: '4xl', lg: '7xl' }} marginBottom={'2rem'}> 1 . ＜Box＞</Text>
-                        <Text fontSize={{ base: '2xs', lg: '3xl' }}>
-                            HTMLでいいうところの
-                            <Box as='code' color={'red.500'}>
-                                ＜div＞
-                            </Box>のようなもの。<br />
-                            HTMLにコンパイルされる際には、＜div＞に変換されます。<br />
-                            特によく使うタグの一つだと私は考えます。
-                        </Text>
-                    </Box>
-                    <Box as='section'>
-                        <Text fontSize={{ base: '4xl', lg: '7xl' }} marginBottom={'2rem'}>2 . ＜Flex＞</Text>
-                        <Text fontSize={{ base: '2xs', lg: '3xl' }}>
-                            こちらのタグも、
-                            <Box as='code' color={'red.500'}>
-                                ＜div＞
-                            </Box>のように使うことが可能です。<br />
-                            HTMLにコンパイルされる際には＜div＞に変換されます。<br />
-                            CSS、Sass/Scssを書いたことがある人はわかると思います。<br />
-                            display:flex;でスタイルを当てることが多いです。<br />
-                            なんとこのタグ１つでこのタグの中にある子要素はすべて横並びになるのです。<br />
-                            なので中央揃えや、等間隔に開けるなどが簡単にできてしまうのです。<br />
-                            このタグを私は一番使います。
-                        </Text>
-                    </Box>
-                    <Box as='section'>
-                        <Text fontSize={{ base: '4xl', lg: '7xl' }}>3 . ＜Text＞</Text>
-                        <Text fontSize={{ base: '2xs', lg: '3xl' }}>
-                            テキストを扱いに使われ、
-                            <Box as='code' color={'red.500'}>
-                                ＜p＞
-                            </Box>のようなもの。<br />
-                            HTMLにコンパイルされる際には、＜p＞に変換されます。<br />
-                            HTMLのテキストに関連するタグはたくさんあるので、asを使って別のタグに変えながらやると<br />
-                            HTMLの文法に沿って書くことができます。
-                        </Text>
+                        <Text fontSize={{ base: '4xl', lg: '7xl' }}>Chakra-UIのタグ</Text>
+                        <Box as='article' margin={'3rem 0'}>
+                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={'2rem'}> 1 . ＜Box＞</Text>
+                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                                HTMLでいいうところの
+                                <Box as='code' color={'red.500'}>
+                                    ＜div＞
+                                </Box>のようなもの。<br />
+                                HTMLにコンパイルされる際には、＜div＞に変換されます。<br />
+                                特によく使うタグの一つだと私は考えます。
+                            </Text>
+                        </Box>
+                        <Box as='article' margin={'3rem 0'}>
+                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={'2rem'}>2 . ＜Flex＞</Text>
+                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                                こちらのタグも、
+                                <Box as='code' color={'red.500'}>
+                                    ＜div＞
+                                </Box>のように使うことが可能です。<br />
+                                HTMLにコンパイルされる際には＜div＞に変換されます。<br />
+                                CSS、Sass/Scssを書いたことがある人はわかると思います。<br />
+                                display:flex;でスタイルを当てることが多いです。<br />
+                                なんとこのタグ１つでこのタグの中にある子要素はすべて横並びになるのです。<br />
+                                なので中央揃えや、等間隔に開けるなどが簡単にできてしまうのです。<br />
+                                このタグを私は一番使います。
+                            </Text>
+                        </Box>
+                        <Box as='article' margin={'3rem 0'}>
+                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={'2rem'}>3 . ＜Text＞</Text>
+                            <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
+                                テキストを扱いに使われ、
+                                <Box as='code' color={'red.500'}>
+                                    ＜p＞
+                                </Box>のようなもの。<br />
+                                HTMLにコンパイルされる際には、＜p＞に変換されます。<br />
+                                HTMLのテキストに関連するタグはたくさんあるので、asを使って別のタグに変えながらやると<br />
+                                HTMLの文法に沿って書くことができます。
+                            </Text>
+                        </Box>
                     </Box>
                 </Flex>
             </Flex>
