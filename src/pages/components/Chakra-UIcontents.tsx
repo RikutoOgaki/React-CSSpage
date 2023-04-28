@@ -78,8 +78,8 @@ export default function Chakra() {
                     </Box>
                     <Box as='section'>
                         <Text fontSize={{ base: '4xl', lg: '7xl' }}>Chakra-UIのタグ</Text>
-                        <Box as='article' margin={'3rem 0'}>
-                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={'2rem'}> 1 . ＜Box＞</Text>
+                        <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
+                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}> 1 . ＜Box＞</Text>
                             <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
                                 HTMLでいいうところの
                                 <Box as='code' color={'red.500'}>
@@ -89,8 +89,8 @@ export default function Chakra() {
                                 特によく使うタグの一つだと私は考えます。
                             </Text>
                         </Box>
-                        <Box as='article' margin={'3rem 0'}>
-                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={'2rem'}>2 . ＜Flex＞</Text>
+                        <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
+                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}>2 . ＜Flex＞</Text>
                             <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
                                 こちらのタグも、
                                 <Box as='code' color={'red.500'}>
@@ -104,8 +104,8 @@ export default function Chakra() {
                                 このタグを私は一番使います。
                             </Text>
                         </Box>
-                        <Box as='article' margin={'3rem 0'}>
-                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={'2rem'}>3 . ＜Text＞</Text>
+                        <Box as='article' margin={{ base: '3rem 0', lg: '7rem 0' }}>
+                            <Text fontSize={{ base: '3xl', lg: '7xl' }} marginBottom={{ base: '2rem', lg: '5rem' }}>3 . ＜Text＞</Text>
                             <Text fontSize={{ base: '2xs', lg: '3xl' }} marginLeft={'4rem'}>
                                 テキストを扱いに使われ、
                                 <Box as='code' color={'red.500'}>
