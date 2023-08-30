@@ -64,6 +64,7 @@ export default function Head() {
                     <Text
                         as={'h2'}
                         fontSize={{ base: '2xl', lg: '8xl' }}
+                        marginTop={'2xl'}
                         fontWeight={'bold'}>Styles in React</Text>
                 </Box>
                 <Flex paddingRight={{ base: '1rem', lg: '50rem' }} gap={'3rem'}>
