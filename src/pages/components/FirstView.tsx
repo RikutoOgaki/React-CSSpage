@@ -9,7 +9,7 @@ export default function FirstView() {
         <>
             <Flex
                 w={'100%'}
-                justifyContent={'center'}
+                // justifyContent={'center'}
                 alignItems={'center'}
                 marginLeft={{ base: '.5rem', lg: '25rem' }}
                 paddingTop={'8vh'}>
@@ -39,7 +39,7 @@ export default function FirstView() {
                             今回のReactについてはnext.js version13を採用しています。<br />
                             versionや環境によって導入できないなどの不具合がある場合がございますので、ご了承ください。<br />
                             できる限り最新versionにできるよう日々更新いたしますので今後ともよろしくおねがいします。<br />
-                            こちらのサイトは私自身がこのスタイルはよく使われるんじゃないか、こういうのがあれば良いんじゃないかと思ったものしか載せておりません。<br />
+                            こちらのサイトは私自身がこのスタイルはよく使われるんじゃないか、<br />こういうのがあれば良いんじゃないかと思ったものしか載せておりません。<br />
                             さらにスタイルの幅を広げたい方にはご自身で追求していただくようお願いします。
                         </Text>
                     </Box>
