@@ -24,7 +24,7 @@ export default function Head() {
         <>
             <Flex
                 w={'100%'}
-                h={'12vh'}
+                h={'10vh'}
                 bg={'#fff'}
                 marginLeft={{ lg: '25rem', sm: '2rem' }}
                 justifyContent={'space-around'}
